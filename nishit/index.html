@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Nishit's Portfolio</title>
+  </head>
+  
+  <body>
+    <div class="nav_bar">
+      <div class="nav_bar_logo">
+        <p>Nis<span>H</span>it</p>
+      </div>
+    </div>
+    <section class="section__1">
+      <div class="section__1_div1">
+        <div class="intro">
+          <div class="job">Web Developer</div>
+          <div class="desc">
+            <div>Hi, I'm <span>Nishit</span></div>
+            <div>Rokad and I'm</div>
+            <span id="element"></span>
+          </div>
+        </div>
+        <div class="intro__2">
+          As a web developer, you possess a set of skills and qualities that
+          make you highly proficient in your field. Your expertise in web
+          development enables you to create stunning, functional, and
+          user-friendly websites.
+        </div>
+      </div>
+      <div class="section__1_div2">
+        <img src="studey.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="section__2">
+      <div class="section__2-1">
+        <img src="study.avif" />
+      </div>
+      <div class="section__2-2">
+        <h2>About me</h2>
+        <br />
+        <div>
+          "My name is Nishit, and I am a second-year student at CHARUSAT,
+          pursuing a Bachelor's degree in Engineering (B.Tech). I have a deep
+          passion for coding and the world of technology. Exploring the realm of
+          programming has been an exciting journey for me, and I find immense
+          joy in creating innovative solutions through code. During my time as a
+          student, I have honed my skills in various programming languages such
+          as C++, Java, and Python.
+          <br />
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>CP</span><br />Competitive programmer in Codechef,leetcode,codeforces
+              </li>
+              <li><span>WEB</span><br />Web development Enthusist</li>
+              <li><span>UI?UX</span><br />Designing web app interfaces</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2021-Current</span><br />Charotar University of Science
+                and Technology
+              </li>
+              <li>
+                <span>2019-2021</span><br />Shakti Higher Secondary School
+              </li>
+              <li><span>2009-2019</span><br />Kendriya Vidyalaya Jetpur</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__3">
+    <h1>My services</h1>
+    <div class="container">
+       
+        <div class="container01">
+             <div><img src="web.jpg" alt=""></div>
+             <div class="ni">
+             <h1>web development</h1>
+             <p>Provide services in both front-end and back-end development with speciality in javascript , react js</p>
+             </div>
+      
+    </div>
+        <div class="container02">
+            <div><img src="c++sd.png" alt=""></div>
+            <div class="ni">
+             <h1>c++ development</h1>
+             <p>Provie services in c++ development and also like to slove doubts in Competitive programming.</p>
+              <br>
+            </div>
+        </div>
+        <div class="container03">
+            <div><img src="app.jpg" alt=""></div>
+        <div class="ni">
+             <h1>App development</h1>
+             <p>Provide services in app development such as in flutter deveoplment and also work in firebase.</p>
+             </div>
+             <br>
+        </div>
+    </div>
+    </section>
+    
+    <section class="section__4">
+      <h1>My Work</h1>
+      <div class="container">
+          <div class="container11">
+               <img src="h123.jpg" alt="">
+               <div class="layer">
+                <h3>Health Master</h3>
+                <p>Make hospital administration very easy.Patient can book appointment online</p>
+               </div>
+      </div>
+          <div class="container12">
+              <img src="nb.jpg" alt="">
+              <div class="layer">
+                <h3>B&N Fashion Hub</h3>
+                <p>An E commerce website where Customers can buy product online from home or anywhere</p>
+               </div>
+          </div>
+          <div class="container13">
+              <img src="to.jpg" alt="">
+              <div class="layer">
+                <h3>To-do list</h3>
+                <p>In this person can set deadline for particular task. After deadline timer set to zero.</p>
+               </div>
+          </div>
+      </section>
+      <!-- <a href="Nishit Rokad Resume (1).pdf" download>Download CV</a> -->
+      <section class="section__5">
+        <div class="cont">
+            <div class="c1">
+             <p>Contact Me</p>    
+             <div class="emai">
+              <div>nishitvrokad@gmail.com
+              </div>
+              <div style="margin-top: 2%;">94099602**
+              </div>
+              </div>    
+              <div class="CV">
+               <a href="Nishit Rokad Resume (1).pdf" download>Download CV</a>
+              </div>
+            </div>
+            <div class="c2">
+              <form name="submit-to-google-sheet">
+               <input type="text" id="fname" name="Name" placeholder="Your name">
+               <input type="email" id="email" name="Email" placeholder="Your mail"> 
+               <textarea id="textarea" name="Comments" placeholder="Your Comments"></textarea><br>
+               <button type="submit" id="sub" onclick="fun()">Submit</button>
+              </form>   
+            </div>
+            
+        </section>
+   
+
+
+<script>
+  
+  function fun()
+  {
+    let c=document.getElementById("fname").value;
+    alert(`Thanks ${c} for your response`)
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyGTE2elt_M1dw0uo84TkrzuSWgxCb7A6AtRQPHQUt0P9M0Ny0S8Qj8f3a3LdNgPGXo9A/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Developer', 'Competitve Programmer','Flutter Developer'],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="//code.tidio.co/djq8ocmg9gcwijajwpnbhb5zr61lvmj8.js" async></script>
+  </body>
+</html>
