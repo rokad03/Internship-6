@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    
     color:whitesmoke
 }
 h2{
@@ -43,18 +42,16 @@ span{
     border-bottom: 4px solid red;
 }
 .section__1{
-  display: flex;
-  margin-top: 100px;
-  justify-content: space-between;
-  gap:10%
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
 }
 .intro{
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .intro__2{
     margin-top: 20px;
-    margin-left: 15%;
+    margin-left: 10%;
     min-width: 50px;
     font-size: 2vw;
 }
@@ -66,27 +63,31 @@ span{
 }
 .section__1_div1{
  /* background-color: rgb(232, 29, 76); */
- width: 40%;
- justify-content: center;
- align-items: center;
+ /* width: 40%; */
+ justify-content: start;
+ align-items: start;
  margin-top: 5%;
+ margin-left: 0px;
 }
-.section__1_div2{
-    /* background-color: rgb(255, 255, 0); */
+/* .section__1_div2{
+   
     width:50%;
 }
+*/
 .section__1_div2 img{
    
     width:70%;
     margin-left: 20%;
-    border-radius: 50px;
-    max-height:80%;
-}
+    border-radius: 50%;
+    max-height:70%;
+    margin-top: 5%;
+} 
 .section__2{
     margin-top: 30px;
     display: flex;;
-    justify-content: space-around;
-    gap:10%;
+    justify-content: center;
+    margin-left: 2%;
+    gap:8%;
 }
 .section__2-1{
     /* width:50%;
@@ -152,8 +153,8 @@ span{
     display: block;
 }
 .section__3{
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
     margin-right: 10%;
     font-size: 2vw;
 }
@@ -224,8 +225,8 @@ span{
 
 /* dfnsfngddf,bdz */
 .section__4{
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
     margin-right: 10%;
     font-size: 2vw;
 }
@@ -261,7 +262,7 @@ span{
 
 }
 .section__5{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 2vw;
